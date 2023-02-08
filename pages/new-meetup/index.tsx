@@ -2,7 +2,7 @@ import NewMeetupForm from '@/components/meetups/NewMeetupForm';
 import { Meetup } from '@/types/meetup';
 import { useRouter } from 'next/router';
 
-export default function () {
+export default function NewMeetup() {
   const router = useRouter();
 
   async function onAddMeetup(meetup: Meetup) {
